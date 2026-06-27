@@ -1,16 +1,21 @@
-# React + Vite
+# 📝 React Task Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A fully functional Task Management System built with React and Vite. This project demonstrates core React CRUD operations (Create, Read, Update, Delete) along with dynamic search and filtering capabilities.
+<img width="334" height="221" alt="image" src="https://github.com/user-attachments/assets/39eb07ec-47ca-4d53-b9a0-308285cf97f4" />
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
+- **Create:** Add new tasks seamlessly.
+- **Read:** View all tasks in a dynamic list using `map()`.
+- **Update:** Edit existing tasks and mark them as completed.
+- **Delete:** Remove tasks from the list using `filter()`.
+- **Search:** Instantly filter tasks by name using a responsive search bar.
+- **Premium UI:** Clean, modern design with hover effects and state-driven styling.
 
-## React Compiler
+## 🚀 Technologies & Concepts
+- **Frontend:** React (Vite)
+- **Icons:** React Icons (`react-icons/md`)
+- **Core Concepts:** `useState`, Array Manipulation (`map`, `filter`), Conditional Rendering, and Controlled Inputs.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+---
+*Developed as part of the Day 3 React Internship Assignment.*
